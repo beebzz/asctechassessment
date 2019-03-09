@@ -1,10 +1,4 @@
-h2
-{
-  font-family: monospace;
-  margin-left: 40px;
-}
-
-
+/*Navbar CSS (including Saba's logo)*/
 .sticky
 {
   position: fixed;
@@ -13,6 +7,12 @@ h2
   top: 0;
   z-index: 100;
   border-top: 0;
+}
+
+.site-logo__graphic
+{
+  width: 130px;
+  height: 45px;
 }
 
 #navbar
@@ -25,27 +25,23 @@ h2
   font-family: monospace;
 }
 
-#tinydesk
-{
-  object-fit = fill;
-}
-
-#artistbio
-{
-  margin-top: 40px;
-}
-
-
-#upcomingshows
-{
-  margin-top: -10px;
-}
-
-
 .nav-link
 {
   color: black;
   font-size: 25px;
+}
+
+.navbar-item
+{
+  position: relative;
+}
+
+/* Sections of Site */
+
+h2
+{
+  font-family: monospace;
+  margin-left: 40px;
 }
 
 .container
@@ -54,13 +50,12 @@ h2
   margin-bottom: 40px;
 }
 
-.navbar-item
+#artistbio
 {
-  position: relative;
+  margin-top: 40px;
 }
 
-.site-logo__graphic
+#upcomingshows
 {
-  width: 130px;
-  height: 45px;
+  margin-top: -10px;
 }
