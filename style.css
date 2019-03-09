@@ -1,0 +1,66 @@
+h2
+{
+  font-family: monospace;
+  margin-left: 40px;
+}
+
+
+.sticky
+{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+#navbar
+{
+  padding-bottom: 10px;
+  border-top: 0;
+  margin-bottom: -5px;
+  text-align: center;
+  background-color: white;
+  font-family: monospace;
+}
+
+#tinydesk
+{
+  object-fit = fill;
+}
+
+#artistbio
+{
+  margin-top: 40px;
+}
+
+
+#upcomingshows
+{
+  margin-top: -10px;
+}
+
+
+.nav-link
+{
+  color: black;
+  font-size: 25px;
+}
+
+.container
+{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.navbar-item
+{
+  position: relative;
+}
+
+.site-logo__graphic
+{
+  width: 130px;
+  height: 45px;
+}
